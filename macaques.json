@@ -8,7 +8,7 @@ var macaques = {
     "species" : "M. fascicularis",
     "specimen" : 75,
     "sex" : 1,
-    "scale" : 8,
+    "scale" : 7,
     "colour" : "red"
   }
   },

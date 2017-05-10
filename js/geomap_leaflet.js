@@ -8,7 +8,7 @@ var map = L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
 
 var popup = new L.Popup({ autoPan: false });
 
-// Fasicularis
+// Macaques
 var macaques_scale = 2.5;
 
 var macaques_circlemarkers =
@@ -33,7 +33,7 @@ var macaques_circlemarkers =
 // Fasicularis
 var fascicularis_scale = 2.5;
 
-var fasciularis_circlemarkers =
+var fascicularis_circlemarkers =
   L.mapbox.featureLayer(
     fascicularis,
       {
@@ -42,6 +42,28 @@ var fasciularis_circlemarkers =
             feature.geometry.coordinates,
               {
                 radius : feature.properties.scale * fascicularis_scale,
+                fillColor : feature.properties.colour,
+                color : feature.properties.colour,
+                fillOpacity : 0.9
+              })
+                .bindPopup("<strong><i>" + feature.properties.species +
+                           "</i></strong><br/>Specimen #: " +
+                           feature.properties.specimen);
+        }
+      });
+
+// Fasicularis
+var fascicularis_unique_scale = 2.5;
+
+var fascicularis_unique_circlemarkers =
+  L.mapbox.featureLayer(
+    geojson,
+      {
+        pointToLayer : function(feature) {
+          return L.circleMarker(
+            feature.geometry.coordinates,
+              {
+                radius : feature.properties.scale * fascicularis_unique_scale,
                 fillColor : feature.properties.colour,
                 color : feature.properties.colour,
                 fillOpacity : 0.9
@@ -95,13 +117,15 @@ var nemestrina_circlemarkers =
 
 var macaques_layer = L.layerGroup([macaques_circlemarkers]).addTo(map);
 
-var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]);
+var fasicularis_layer = L.layerGroup([fascicularis_circlemarkers]);
+
+var fasicularis_unique_layer = L.layerGroup([fascicularis_unique_circlemarkers]);
 
 var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
 var nemestrina_layer = L.layerGroup([nemestrina_circlemarkers]);
 
-var overlayMaps = { "all": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i> (rhesus macaque)": mulatta_layer,
+var overlayMaps = { "all": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer,  "<i>M. fasicularis</i> (Unique longtailed macaque)": fasicularis_unique_layer, "<i>M. mulatta</i> (rhesus macaque)": mulatta_layer,
                     "<i>M. nemestrina</i> (southern pigtailed macaque)": nemestrina_layer};
 
 
