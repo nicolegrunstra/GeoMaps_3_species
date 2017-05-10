@@ -101,8 +101,8 @@ var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
 var nemestrina_layer = L.layerGroup([nemestrina_circlemarkers]);
 
-var overlayMaps = { "macaques": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer,
-                    "<i>M. nemestrina</i>": nemestrina_layer};
+var overlayMaps = { "all macaques": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i> (rhesus macaque)": mulatta_layer,
+                    "<i>M. nemestrina</i> (southern pigtailed macaque)": nemestrina_layer};
 
 
 var baseLayer = "";
