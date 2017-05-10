@@ -9,6 +9,28 @@ var map = L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
 var popup = new L.Popup({ autoPan: false });
 
 // Fasicularis
+var macaques_scale = 2.5;
+
+var macaques_circlemarkers =
+  L.mapbox.featureLayer(
+    macaques,
+      {
+        pointToLayer : function(feature) {
+          return L.circleMarker(
+            feature.geometry.coordinates,
+              {
+                radius : feature.properties.scale * macaques_scale,
+                fillColor : feature.properties.colour,
+                color : feature.properties.colour,
+                fillOpacity : 0.9
+              })
+                .bindPopup("<strong><i>" + feature.properties.species +
+                           "</i></strong><br/>Specimen #: " +
+                           feature.properties.specimen);
+        }
+      });
+      
+// Fasicularis
 var fascicularis_scale = 2.5;
 
 var fasciularis_circlemarkers =
@@ -70,16 +92,26 @@ var nemestrina_circlemarkers =
            feature.properties.specimen);
      }
    });
-var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]).addTo(map);
+
+var macaques_layer = L.layerGroup([macaques_circlemarkers]).addTo(map);
+
+var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]);
 
 var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
 var nemestrina_layer = L.layerGroup([nemestrina_circlemarkers]);
 
-var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer,
+var overlayMaps = { "macaques": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer,
                     "<i>M. nemestrina</i>": nemestrina_layer};
 
-L.control.layers(overlayMaps).addTo(map);
+
+var baseLayer = "";
+
+// Base map and overlay maps
+var baseMaps = { "Base map": fasicularis_layer }
+
+var control = L.control.activeLayers(overlayMaps);
+control.addTo(map);
 
 // Get Color gradient
 function getGradientColor(start_color, end_color, percent) {
