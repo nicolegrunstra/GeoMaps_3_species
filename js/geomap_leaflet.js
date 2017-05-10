@@ -143,7 +143,7 @@ function getLegendHTML() {
   labels = [],
   from, to;
   var colours = ['red', '#009900','black' ];
-  var genera = ['<i>M.mulatta</i>', '<i>M. mulatta</i>', '<i>M. nemestrina</i>'];
+  var genera = ['<i>M. fascicularis</i>', '<i>M. mulatta</i>', '<i>M. nemestrina</i>'];
 
   var generaLegend = [];
 
