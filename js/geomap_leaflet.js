@@ -35,7 +35,7 @@ var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]).addTo(map);
 
 var eco_layer = L.layerGroup([fasciularis_circlemarkers]);
 
-var overlayMaps = { "Fasicularis": fasicularis_layer, "Fasciularis": eco_layer };
+var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "Fasciularis": eco_layer };
 
 L.control.layers(overlayMaps).addTo(map);
 
@@ -122,7 +122,7 @@ function getLegendHTML() {
   labels = [],
   from, to;
   var colours = ['red', '#009900','black' ];
-  var genera = ['M. fascicularis', 'M. mulatta', 'M. nemestrina'];
+  var genera = ['<i>M.fascicularis</i>', 'M. mulatta', 'M. nemestrina'];
 
   var generaLegend = [];
 
