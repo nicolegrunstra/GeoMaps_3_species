@@ -4,12 +4,12 @@ var map = L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
         // Any of the valid control positions:
         // https://www.mapbox.com/mapbox.js/api/v2.4.0/l-control/#control-positions
         position: 'bottomright'
-    }}).setView([15., 65.], 4);
+    }}).setView([10., 105.], 4);
 
 var popup = new L.Popup({ autoPan: false });
 
 // Fasicularis
-var fascicularis_scale = 1;
+var fascicularis_scale = 2.5;
 
 var fasciularis_circlemarkers =
   L.mapbox.featureLayer(
@@ -32,7 +32,7 @@ var fasciularis_circlemarkers =
 
 
 // Mulatta
-var mulatta_scale = 1;
+var mulatta_scale = 2.5;
 var mulatta_circlemarkers =
   L.mapbox.featureLayer(
     mulatta,
@@ -53,7 +53,7 @@ var mulatta_circlemarkers =
       });
 
 // nemestrina
-var nemestrina_scale = 1;
+var nemestrina_scale = 2.5;
 var nemestrina_circlemarkers =
  L.mapbox.featureLayer(
    nemestrina, {
