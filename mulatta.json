@@ -1,0 +1,368 @@
+var mulatta = {  
+"type" : "FeatureCollection",
+"features" : [
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 20.1000, 73.6700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 277,
+  "sex" : 1,
+  "scale" : 2,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 28.0000, 84.0000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 267,
+  "sex" : 1,
+  "scale" : 2,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 27.6700, 85.2100 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 269,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 27.0000, 85.2500 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 273,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 26.8500, 88.3300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 288,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 26.7500, 89.3300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 283,
+  "sex" : 0,
+  "scale" : 3,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.9200, 91.2500 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 284,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.0000, 92.0000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 260,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.8000, 93.0700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 286,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 24.6500, 93.7500 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 282,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 26.5000, 93.9700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 293,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 23.5000, 94.0000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 222,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 23.6200, 94.3700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 204,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.7800, 94.4800 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 206,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 23.4000, 94.4800 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 258,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 24.8700, 94.9200 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 207,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.4200, 95.1700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 220,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 20.9300, 95.2700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 209,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.9700, 95.7800 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 205,
+  "sex" : 0,
+  "scale" : 2,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.8000, 95.9300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 210,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.0000, 96.0000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 208,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 18.0500, 96.1700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 223,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 28.0200, 96.2300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 279,
+  "sex" : 1,
+  "scale" : 2,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 18.9300, 96.4300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 213,
+  "sex" : 1,
+  "scale" : 3,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.0000, 96.5000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 211,
+  "sex" : 1,
+  "scale" : 2,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.5000, 96.9000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 259,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 25.4200, 97.2500 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 218,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 26.6000, 97.8700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 217,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 29.5000, 103.3300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 262,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 30.0000, 104.0000 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 722,
+  "sex" : 0,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 19.3200, 105.4200 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 276,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 22.1300, 105.8300 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 541,
+  "sex" : 1,
+  "scale" : 3,
+  "colour" : "#009900"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 16.1700, 107.6700 ]},
+"properties" : {
+  "species" : "M. mulatta",
+  "specimen" : 540,
+  "sex" : 1,
+  "scale" : 1,
+  "colour" : "#009900"
+}
+},
+]
+};

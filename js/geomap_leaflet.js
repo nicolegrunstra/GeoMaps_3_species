@@ -31,11 +31,32 @@ var fasciularis_circlemarkers =
       });
 
 
+// Fasicularis
+var mulatta_scale = 1;
+var mulatta_circlemarkers =
+  L.mapbox.featureLayer(
+    mulatta,
+      {
+        pointToLayer : function(feature) {
+          return L.circleMarker(
+            feature.geometry.coordinates,
+              {
+                radius : feature.properties.scale * mulatta_scale,
+                fillColor : feature.properties.colour,
+                color : feature.properties.colour,
+                fillOpacity : 0.9
+              })
+                .bindPopup("<strong><i>" + feature.properties.species +
+                           "</i></strong><br/>Specimen #: " +
+                           feature.properties.specimen);
+        }
+      });
+
 var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]).addTo(map);
 
-var eco_layer = L.layerGroup([fasciularis_circlemarkers]);
+var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
-var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "Fasciularis": eco_layer };
+var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer };
 
 L.control.layers(overlayMaps).addTo(map);
 
@@ -122,7 +143,7 @@ function getLegendHTML() {
   labels = [],
   from, to;
   var colours = ['red', '#009900','black' ];
-  var genera = ['<i>M.fascicularis</i>', 'M. mulatta', 'M. nemestrina'];
+  var genera = ['<i>M.mulatta</i>', '<i>M. mulatta</i>', '<i>M. nemestrina</i>'];
 
   var generaLegend = [];
 
