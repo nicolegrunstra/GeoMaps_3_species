@@ -31,7 +31,7 @@ var fasciularis_circlemarkers =
       });
 
 
-// Fasicularis
+// Mulatta
 var mulatta_scale = 1;
 var mulatta_circlemarkers =
   L.mapbox.featureLayer(
@@ -52,11 +52,32 @@ var mulatta_circlemarkers =
         }
       });
 
+// nemestrina
+var nemestrina_scale = 1;
+var nemestrina_circlemarkers =
+ L.mapbox.featureLayer(
+   nemestrina, {
+     pointToLayer: function(feature) {
+       return L.circleMarker(
+           feature.geometry.coordinates, {
+             radius: feature.properties.scale * nemestrina_scale,
+             fillColor: feature.properties.colour,
+             color: feature.properties.colour,
+             fillOpacity: 0.9
+           })
+         .bindPopup("<strong><i>" + feature.properties.species +
+           "</i></strong><br/>Specimen #: " +
+           feature.properties.specimen);
+     }
+   });
 var fasicularis_layer = L.layerGroup([fasciularis_circlemarkers]).addTo(map);
 
 var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
-var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer };
+var nemestrina_layer = L.layerGroup([nemestrina_circlemarkers]);
+
+var overlayMaps = { "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i>": mulatta_layer,
+                    "<i>M. nemestrina</i>": nemestrina_layer};
 
 L.control.layers(overlayMaps).addTo(map);
 

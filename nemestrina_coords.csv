@@ -1,44 +1,30 @@
-specimen #,species,Longitude,Latitude,sex (0 M; 1 = F)
-116,M. nemestrina,116.3,-2.5,0
-117,M. nemestrina,110.63,0.12,0
-118,M. nemestrina,110.63,0.12,0
-120,M. nemestrina,117,5.5,1
-121,M. nemestrina,115.675,-0.88,1
-123,M. nemestrina,100.43,-1.21,1
-124,M. nemestrina,100.43,-1.21,0
-125,M. nemestrina,100.25,5.375,1
-126,M. nemestrina,103.5,0.25,0
-127,M. nemestrina,103.5,0.25,0
-128,M. nemestrina,103.5,0.25,0
-129,M. nemestrina,103.5,0.25,1
-130,M. nemestrina,111.5,1.43,0
-132,M. nemestrina,111.42,1.15,0
-133,M. nemestrina,104,-3,0
-134,M. nemestrina,101.5,0,0
-135,M. nemestrina,101.5,0,0
-136,M. nemestrina,114.6,3.18,0
-139,M. nemestrina,100.72,3.95,0
-140,M. nemestrina,101.92,3.53,0
-141,M. nemestrina,101.53,3.05,0
-142,M. nemestrina,99.72,7.53,0
-369,M. nemestrina,98.82,3.52,0
-370,M. nemestrina,102.27,-3.42,1
-371,M. nemestrina,104.76,-2.99,0
-379,M. nemestrina,98.8,3.52,1
-380,M. nemestrina,100.9,-0.95,0
-381,M. nemestrina,101.5,0,1
-382,M. nemestrina,101.5,0,0
-383,M. nemestrina,102.27,-3.42,0
-385,M. nemestrina,100.6,-0.23,1
-386,M. nemestrina,100.45,-0.89,1
-390,M. nemestrina,98.8,3.52,0
-425,M. nemestrina,101.5,0,0
-426,M. nemestrina,98.6,3.37,0
-487,M. nemestrina,98.6,3.52,0
-542,M. nemestrina,101.5,0,0
-544,M. nemestrina,114,1.4,0
-711,M. nemestrina,114,1.4,1
-712,M. nemestrina,114.8,3,1
-713,M. nemestrina,114,1.4,0
-714,M. nemestrina,104.73,-2.98,0
-715,M. nemestrina,98.3,3.9,0
+specimen #,species,Longitude,Latitude,sex (0 M,scale,colour
+715,M. nemestrina,98.3,3.9,Male,1,black
+426,M. nemestrina,98.6,3.37,Male,1,black
+487,M. nemestrina,98.6,3.52,Male,1,black
+379,M. nemestrina,98.8,3.52,"1 Female, 1 Male",2,black
+369,M. nemestrina,98.82,3.52,Male,1,black
+142,M. nemestrina,99.72,7.53,Male,1,black
+125,M. nemestrina,100.25,5.375,Female,1,black
+123,M. nemestrina,100.43,-1.21,"1 Female, 1 Male",2,black
+386,M. nemestrina,100.45,-0.89,Female,1,black
+385,M. nemestrina,100.6,-0.23,Female,1,black
+139,M. nemestrina,100.72,3.95,Male,1,black
+380,M. nemestrina,100.9,-0.95,Male,1,black
+134,M. nemestrina,101.5,0,"5 Males, 1 Female",6,black
+141,M. nemestrina,101.53,3.05,Male,1,black
+140,M. nemestrina,101.92,3.53,Male,1,black
+370,M. nemestrina,102.27,-3.42,"1 Female, 1 Male",2,black
+126,M. nemestrina,103.5,0.25,3 Male,3,black
+129,M. nemestrina,103.5,0.25,Female,1,black
+133,M. nemestrina,104,-3,Male,1,black
+714,M. nemestrina,104.73,-2.98,2 Males,2,black
+117,M. nemestrina,110.63,0.12,2 Males,2,black
+132,M. nemestrina,111.42,1.15,Male,1,black
+130,M. nemestrina,111.5,1.43,Male,1,black
+544,M. nemestrina,114,1.4,"1 Female, 2 Male",3,black
+136,M. nemestrina,114.6,3.18,Male,1,black
+712,M. nemestrina,114.8,3,Female,1,black
+121,M. nemestrina,115.675,-0.88,Female,1,black
+116,M. nemestrina,116.3,-2.5,Male,1,black
+120,M. nemestrina,117,5.5,Female,1,black

@@ -60,7 +60,7 @@ try:
       lat = float(line[3])
       lon = float(line[2])
 
-      sex = float(line[4])
+      sex = line[4]
       scale = float(line[5])
       species = line[1]
       specimen = line[0]
@@ -72,7 +72,7 @@ try:
       \n\"properties\" : {\
       \n  "species" : "%s",\
       \n  "specimen" : %s,\
-      \n  "sex" : %d,\
+      \n  "sex" : "%s",\
       \n  "scale" : %d,\
       \n  "colour" : \"%s\"\
       \n}\

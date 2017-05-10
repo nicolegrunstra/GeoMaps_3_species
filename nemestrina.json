@@ -1,0 +1,324 @@
+var nemestrina = {  
+"type" : "FeatureCollection",
+"features" : [
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.9000, 98.3000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 715,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.3700, 98.6000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 426,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.5200, 98.6000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 487,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.5200, 98.8000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 379,
+  "sex" : "1 Female, 1 Male",
+  "scale" : 2,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.5200, 98.8200 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 369,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 7.5300, 99.7200 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 142,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 5.3750, 100.2500 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 125,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -1.2100, 100.4300 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 123,
+  "sex" : "1 Female, 1 Male",
+  "scale" : 2,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -0.8900, 100.4500 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 386,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -0.2300, 100.6000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 385,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.9500, 100.7200 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 139,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -0.9500, 100.9000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 380,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 0.0000, 101.5000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 134,
+  "sex" : "5 Males, 1 Female",
+  "scale" : 6,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.0500, 101.5300 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 141,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.5300, 101.9200 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 140,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -3.4200, 102.2700 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 370,
+  "sex" : "1 Female, 1 Male",
+  "scale" : 2,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 0.2500, 103.5000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 126,
+  "sex" : "3 Male",
+  "scale" : 3,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 0.2500, 103.5000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 129,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -3.0000, 104.0000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 133,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -2.9800, 104.7300 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 714,
+  "sex" : "2 Males",
+  "scale" : 2,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 0.1200, 110.6300 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 117,
+  "sex" : "2 Males",
+  "scale" : 2,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 1.1500, 111.4200 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 132,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 1.4300, 111.5000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 130,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 1.4000, 114.0000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 544,
+  "sex" : "1 Female, 2 Male",
+  "scale" : 3,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.1800, 114.6000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 136,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 3.0000, 114.8000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 712,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -0.8800, 115.6750 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 121,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ -2.5000, 116.3000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 116,
+  "sex" : "Male",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+{
+"type" : "Feature",
+"geometry" : {"type" : "Point", "coordinates" : [ 5.5000, 117.0000 ]},
+"properties" : {
+  "species" : "M. nemestrina",
+  "specimen" : 120,
+  "sex" : "Female",
+  "scale" : 1,
+  "colour" : "black"
+}
+},
+]
+};
