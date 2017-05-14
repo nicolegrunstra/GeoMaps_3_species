@@ -1,5 +1,5 @@
 L.mapbox.accessToken = 'pk.eyJ1Ijoia2tzMzIiLCJhIjoiY2lsdXc5a2xwMDA2ZXcxbTZoMm5jZTIwcyJ9.CDYFvqPWF2TzCrJGMjl9sQ';
-var map = L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
+var map =  L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
     legendControl: {
         // Any of the valid control positions:
         // https://www.mapbox.com/mapbox.js/api/v2.4.0/l-control/#control-positions
@@ -100,15 +100,29 @@ var mulatta_layer = L.layerGroup([mulatta_circlemarkers]);
 
 var nemestrina_layer = L.layerGroup([nemestrina_circlemarkers]);
 
+var CartoDB_PositronNoLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
+}).addTo(map);
+
+var Esri_OceanBasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
+	maxZoom: 13
+});
+
+var Esri_WorldPhysical = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
+	maxZoom: 8
+});
+
 var overlayMaps = { "all": macaques_layer, "<i>M. fasicularis</i> (longtailed macaque)": fasicularis_layer, "<i>M. mulatta</i> (rhesus macaque)": mulatta_layer, "<i>M. nemestrina</i> (southern pigtailed macaque)": nemestrina_layer};
 
 
-var baseLayer = "";
-
 // Base map and overlay maps
-var baseMaps = { "Base map": fasicularis_layer }
+var baseMaps = {"CartoDB": CartoDB_PositronNoLabels, "ESRI_World": Esri_WorldPhysical, "ESRI_Ocean": Esri_OceanBasemap }
 
-var control = L.control.activeLayers(overlayMaps);
+var control = L.control.activeLayers(baseMaps, overlayMaps);
 control.addTo(map);
 
 // Get Color gradient
@@ -217,5 +231,5 @@ function getLegendHTML() {
   return '<div id="genera-legend"><span><strong>Species</strong></span><ul>' + generaLegend.join('') + '</ul></div>';
 }
 
-var credits = L.control.attribution();
+var credits = L.control.attribution({position: 'bottomleft'});
 credits.addAttribution('<a href="https://github.com/nicolegrunstra/Geomap">CC-BY-NC-SA 4.0</a>').addTo(map);
