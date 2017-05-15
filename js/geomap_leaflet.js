@@ -8,6 +8,17 @@ var map =  L.mapbox.map('map', 'mapbox.light', {attributionControl: false,
 
 var popup = new L.Popup({ autoPan: false });
 
+// Lat long grids
+L.latlngGraticule({
+  showLabel: true,
+  zoomInterval: [
+    {start: 2, end: 3, interval: 30},
+    {start: 4, end: 4, interval: 10},
+    {start: 5, end: 7, interval: 5},
+    {start: 8, end: 10, interval: 1}
+  ]
+}).addTo(map);
+
 // Macaques
 var macaques_scale = 2.5;
 
