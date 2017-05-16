@@ -11,12 +11,15 @@ var popup = new L.Popup({ autoPan: false });
 // Lat long grids
 L.latlngGraticule({
   showLabel: true,
+  font: "14px",
+  fontColor: 'black',
   zoomInterval: [
     {start: 2, end: 3, interval: 30},
     {start: 4, end: 4, interval: 10},
     {start: 5, end: 7, interval: 5},
     {start: 8, end: 10, interval: 1}
   ]
+
 }).addTo(map);
 
 // Macaques
