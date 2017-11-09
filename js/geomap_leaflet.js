@@ -23,7 +23,7 @@ L.latlngGraticule({
 }).addTo(map);
 
 // Macaques
-var macaques_scale = 2.5;
+var macaques_scale = 5;
 
 var macaques_circlemarkers =
   L.mapbox.featureLayer(
@@ -45,7 +45,7 @@ var macaques_circlemarkers =
       });
       
 // Fasicularis
-var fascicularis_scale = 2.5;
+var fascicularis_scale = 5;
 
 var fascicularis_circlemarkers =
   L.mapbox.featureLayer(
@@ -67,7 +67,7 @@ var fascicularis_circlemarkers =
       });
 
 // Mulatta
-var mulatta_scale = 2.5;
+var mulatta_scale = 5;
 var mulatta_circlemarkers =
   L.mapbox.featureLayer(
     mulatta,
@@ -88,7 +88,7 @@ var mulatta_circlemarkers =
       });
 
 // nemestrina
-var nemestrina_scale = 2.5;
+var nemestrina_scale = 5;
 var nemestrina_circlemarkers =
  L.mapbox.featureLayer(
    nemestrina, {
